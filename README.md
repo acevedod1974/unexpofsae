@@ -26,3 +26,24 @@ This is the official website for the UNEXPO Fórmula SAE team, built with React,
    ```bash
    cd unexpo-fsae
    ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+   ## License
+
+   This project is licensed under the [MIT License](LICENSE).
+
+## Contributing
+
+Contributions are welcome! Please check the `TODO.md` file for tasks and open issues.
+
+## Contact
+
+For inquiries, please email us at [unexpo.ufsae@gmail.com](mailto:unexpo.ufsae@gmail.com) or visit our [Instagram page](https://www.instagram.com/unexpofsae).
