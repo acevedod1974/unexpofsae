@@ -15,9 +15,9 @@ export const Hero = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-screen flex items-center overflow-hidden perspective-container"
+      className="relative flex items-start overflow-hidden perspective-container pb-10"
     >
-      <div className="absolute inset-0 bg-gradient-to-b from-indigo-50 to-white -z-10 gradient-animate" />
+      <div className="absolute inset-0 bg-gradient-to-b from-indigo-50 to-indigo-100 -z-10 gradient-animate" />
       <div
         className="absolute inset-0 -z-10 transition-transform duration-300 ease-out"
         style={{
@@ -30,7 +30,7 @@ export const Hero = () => {
         }}
       />
 
-      <div className="container mx-auto px-6 py-24">
+      <div className="container mx-auto px-6 py-4 mt-4 mb-0">
         <ParallaxCard className="max-w-4xl mx-auto bg-gradient-to-br from-red-900/10 via-white/85 to-blue-900/10 backdrop-blur-lg rounded-2xl p-4 sm:p-6 md:p-8 shadow-xl border border-white/20">
           <div
             ref={titleRef}
