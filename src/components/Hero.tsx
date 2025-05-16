@@ -67,13 +67,36 @@ export const Hero = () => {
               Automotive Engineers".
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
+              {/* Conoce más - PDF Dossier */}
               <a
-                href="https://www.instagram.com/unexpoformulasae/"
+                href="https://mkanica.com/unexpofsae/Dossier_UFS_2026.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group px-8 py-4 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition-all duration-300 flex items-center gap-2 hover:gap-4"
               >
                 Conoce más
+                <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+              </a>
+              {/* Redes Sociales - Instagram */}
+              <a
+                href="https://www.instagram.com/unexpoformulasae/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group px-8 py-4 bg-white text-indigo-700 rounded-lg font-medium border border-indigo-200 hover:bg-indigo-50 transition-all duration-300 flex items-center gap-2 hover:gap-4 shadow"
+                title="Visita nuestras redes sociales"
+              >
+                Redes Sociales
+                <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+              </a>
+              {/* Folleto PDF */}
+              <a
+                href="https://mkanica.com/unexpofsae/FOLLETO_FSAE_1.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group px-8 py-4 bg-white text-indigo-700 rounded-lg font-medium border border-indigo-200 hover:bg-indigo-50 transition-all duration-300 flex items-center gap-2 hover:gap-4 shadow"
+                title="Ver folleto informativo"
+              >
+                Ver Folleto PDF
                 <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
               </a>
             </div>
