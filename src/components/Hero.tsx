@@ -68,7 +68,7 @@ export const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://www.instagram.com/unexpofsae"
+                href="https://www.instagram.com/unexpoformulasae/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group px-8 py-4 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition-all duration-300 flex items-center gap-2 hover:gap-4"
