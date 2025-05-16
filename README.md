@@ -19,17 +19,23 @@ This is the official website for the UNEXPO Fórmula SAE team, built with React,
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-repo/unexpo-fsae.git
    ```
+
 2. Navigate to the project directory:
+
    ```bash
    cd unexpo-fsae
    ```
+
 3. Install dependencies:
+
    ```bash
    npm install
    ```
+
 4. Start the development server:
 
    ```bash
@@ -46,4 +52,4 @@ Contributions are welcome! Please check the `TODO.md` file for tasks and open is
 
 ## Contact
 
-For inquiries, please email us at [unexpo.ufsae@gmail.com](mailto:unexpo.ufsae@gmail.com) or visit our [Instagram page](https://www.instagram.com/unexpofsae).
+For inquiries, please email us at [unexpo.ufsae@gmail.com](mailto:unexpo.ufsae@gmail.com) or visit our [Instagram page](https://www.instagram.com/unexpoformulasae/).
