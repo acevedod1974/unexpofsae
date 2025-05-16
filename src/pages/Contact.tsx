@@ -9,6 +9,7 @@ export const Contact = () => {
           name="contact"
           method="POST"
           data-netlify="true"
+          action="/thanks"
           className="flex flex-col gap-4"
         >
           {/* Netlify hidden input for form name */}

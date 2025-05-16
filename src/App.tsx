@@ -16,6 +16,7 @@ import { Sponsors } from "./pages/Sponsors";
 import { Blog } from "./pages/Blog";
 import { Gallery } from "./pages/Gallery";
 import { Contact } from "./pages/Contact";
+import { Thanks } from "./pages/Thanks";
 
 const navLinks = [
   { to: "/", label: "Inicio" },
@@ -80,6 +81,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/thanks" element={<Thanks />} />
       </Routes>
     </Router>
   );
