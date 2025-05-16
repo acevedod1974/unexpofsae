@@ -1,6 +1,6 @@
 # UNEXPO Fórmula SAE Website
 
-This is the official website for the UNEXPO Fórmula SAE team, built with React, TypeScript, and Tailwind CSS. The site showcases the team's mission, vision, and achievements, and provides information for potential sponsors and team members.
+This is the official website for the UNEXPO Fórmula SAE team, built with React, TypeScript, and Tailwind CSS. The site showcases the team's mission, vision, and achievements, and provides information for potential sponsors and team members..
 
 ## Features
 
