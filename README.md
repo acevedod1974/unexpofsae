@@ -52,4 +52,4 @@ Contributions are welcome! Please check the `TODO.md` file for tasks and open is
 
 ## Contact
 
-For inquiries, please email us at [unexpo.ufsae@gmail.com](mailto:unexpo.ufsae@gmail.com) or visit our [Instagram page](https://www.instagram.com/unexpofsae).
+For inquiries, please email us at [unexpo.ufsae@gmail.com](mailto:unexpo.ufsae@gmail.com) or visit our [Instagram page](https://www.instagram.com/unexpoformulasae/).
