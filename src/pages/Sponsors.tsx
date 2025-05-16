@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const sponsors = [
   {
@@ -39,12 +40,12 @@ export const Sponsors = () => (
       </div>
       <div className="text-center mt-12">
         <p className="text-gray-700 mb-2">¿Quieres ser patrocinador?</p>
-        <a
-          href="/contact"
+        <Link
+          to="/contact"
           className="inline-block px-6 py-3 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition"
         >
           Contáctanos
-        </a>
+        </Link>
       </div>
     </div>
   </section>
