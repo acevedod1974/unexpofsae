@@ -1,31 +1,35 @@
-import React from 'react';
-import { Target, Users, Lightbulb, Rocket } from 'lucide-react';
-import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
-import { useSmoothTransition } from '../hooks/useSmoothTransition';
-import { AnimatedTitle } from './AnimatedTitle';
-import { ParallaxCard } from './ParallaxCard';
+import React from "react";
+import { Target, Users, Lightbulb, Rocket } from "lucide-react";
+import { useIntersectionObserver } from "../hooks/useIntersectionObserver";
+import { useSmoothTransition } from "../hooks/useSmoothTransition";
+import { AnimatedTitle } from "./AnimatedTitle";
+import { ParallaxCard } from "./ParallaxCard";
 
 const features = [
   {
     icon: <Target className="w-6 h-6" />,
-    title: 'Visión',
-    description: 'Ser un equipo multidisciplinario altamente unido y organizado dentro de la UNEXPO, con un estrecho nexo estudiante-profesor.'
+    title: "Visión",
+    description:
+      "Ser un equipo multidisciplinario altamente unido y organizado dentro de la UNEXPO, con un estrecho nexo estudiante-profesor.",
   },
   {
     icon: <Rocket className="w-6 h-6" />,
-    title: 'Misión',
-    description: 'Organización multidisciplinaria que trabaja en pro de fomentar una dinámica empresarial y desarrollo profesional.'
+    title: "Misión",
+    description:
+      "Organización multidisciplinaria que trabaja en pro de fomentar una dinámica empresarial y desarrollo profesional.",
   },
   {
     icon: <Users className="w-6 h-6" />,
-    title: 'Equipo',
-    description: 'Estudiantes unidos en el diseño y construcción de vehículos de competición Formula SAE.'
+    title: "Equipo",
+    description:
+      "Estudiantes unidos en el diseño y construcción de vehículos de competición Formula SAE.",
   },
   {
     icon: <Lightbulb className="w-6 h-6" />,
-    title: 'Innovación',
-    description: 'Desarrollo e innovación tecnológica en el sector automotriz a través de investigación y diseño.'
-  }
+    title: "Innovación",
+    description:
+      "Diseño y construcción de vehículos de competición Formula SAE.",
+  },
 ];
 
 export const Features = () => {
@@ -33,19 +37,23 @@ export const Features = () => {
   const sectionRef = useSmoothTransition();
 
   return (
-    <section ref={sectionRef} className="py-24 bg-gradient-to-br from-red-50 via-white to-blue-50 relative scroll-reveal">
+    <section
+      ref={sectionRef}
+      className="pt-10 pb-0 bg-gradient-to-br from-red-50 via-white to-blue-50 relative scroll-reveal mt-0"
+    >
       <div className="container mx-auto px-4 sm:px-6">
-        <div className="text-center mb-16">
-          <AnimatedTitle 
+        <div className="text-center mb-2">
+          <AnimatedTitle
             text="Nuestros Pilares Fundamentales"
-            className="text-3xl sm:text-4xl font-bold mb-4 reveal-text"
+            className="text-3xl sm:text-4xl font-bold mb-2 reveal-text"
           />
           <p className="text-sm sm:text-base text-gray-600 max-w-2xl mx-auto px-4">
-            Comprometidos con la excelencia académica y el desarrollo tecnológico automotriz.
+            Comprometidos con la excelencia académica y el desarrollo
+            tecnológico automotriz.
           </p>
         </div>
-        
-        <div 
+
+        <div
           ref={ref}
           className="stagger-animate perspective-container"
           data-visible={isVisible}
