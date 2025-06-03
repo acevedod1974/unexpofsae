@@ -1,4 +1,4 @@
-S# Planning Document
+# Planning Document
 
 ## Project Goals
 
