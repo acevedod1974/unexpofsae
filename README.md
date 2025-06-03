@@ -1,5 +1,7 @@
 # UNEXPO Fórmula SAE Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cf740cde-1700-4014-841d-7aae49e835cb/deploy-status)](https://app.netlify.com/sites/unexpofsae/deploys)
+
 This is the official website for the UNEXPO Fórmula SAE team, built with React, TypeScript, and Tailwind CSS. The site showcases the team's mission, vision, and achievements, and provides information for potential sponsors and team members.
 
 ## Features
