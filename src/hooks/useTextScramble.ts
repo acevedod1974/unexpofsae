@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 
 // Character pools based on character types
 const pools = {
@@ -7,7 +7,7 @@ const pools = {
   symbols: '!@#$%^&*()_+-=[]{}|;:,.<>?/`~',
 };
 
-export const useTextScramble = (text: string, duration = 20000) => {
+export const useTextScramble = (text: string) => {
   const [displayText, setDisplayText] = useState(text);
   const [isScrambling, setIsScrambling] = useState(false);
 
@@ -23,7 +23,6 @@ export const useTextScramble = (text: string, duration = 20000) => {
     setIsScrambling(true);
 
     const iterations = 20;
-    const updateRate = duration / iterations;
 
     let step = 0;
 
@@ -52,7 +51,7 @@ export const useTextScramble = (text: string, duration = 20000) => {
     };
 
     requestAnimationFrame(scrambleStep);
-  }, [text, duration, isScrambling]);
+  }, [text, isScrambling]);
 
   return { displayText, scramble, isScrambling };
 };
